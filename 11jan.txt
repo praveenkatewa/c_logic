@@ -1,0 +1,676 @@
+1)
+1 :one 
+2 :two 
+3 :three 
+4 :four 
+5 :five 
+6: six 
+
+not match 
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter the number ");
+    scanf("%d",&number);
+    if(number==1){
+        printf("one ");
+    }
+    else if(number==2){
+        printf("two ");
+    }
+    else if(number==3)
+    {
+        printf("three");
+    }
+    else if(number==4)
+    {
+        printf("four");
+    }
+    else if(number==5)
+    {
+        printf("five");
+    }
+    else if(number==6)
+    {
+        printf("six");
+    }
+    else{
+        printf("not match");
+    }
+    return 0;
+}
+======================================================================================
+2)
+1 :today is sunday 
+
+2: today is mon 
+
+3: today is tue
+
+4: today is wed
+
+5: today is thu
+
+6: today is fr
+
+7: today is sat
+
+this is not week
+ 
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter the number ");
+    scanf("%d",&number);
+    if(number==1){
+        printf("today is sunday ");
+    }
+    else if(number==2){
+        printf("today is monday ");
+    }
+    else if(number==3)
+    {
+        printf("today is tuesday");
+    }
+    else if(number==4)
+    {
+        printf("today is wednesday");
+    }
+    else if(number==5)
+    {
+        printf("today is thursday");
+    }
+    else if(number==6)
+    {
+        printf("today is friday");
+    }
+    else if(number==7)
+    {
+        printf("today is saturday");
+    }
+    else{
+        printf("this is not week");
+    }
+    return 0;
+}
+
+enter the number 6
+today is friday
+===========================================================================
+3)
+month :
+1:jan
+2:feb 
+total 12
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter the number ");
+    scanf("%d",&number);
+    if(number==1){
+        printf("January");
+    }
+    else if(number==2){
+        printf("February");
+    }
+    else if(number==3)
+    {
+        printf("March");
+    }
+    else if(number==4)
+    {
+        printf("April");
+    }
+    else if(number==5)
+    {
+        printf("May");
+    }
+    else if(number==6)
+    {
+        printf("June");
+    }
+    else if(number==7)
+    {
+        printf("July");
+    }
+    else if(number==8)
+    {
+        printf("August");
+    }
+    else if(number==9)
+    {
+        printf("September");
+    }
+    else if(number==10)
+    {
+        printf("October");
+    }
+    else if(number==11)
+    {
+        printf("November");
+    }
+    else if(number==12)
+    {
+        printf("December");
+    }
+    else{
+        printf("this is not month");
+    }
+    return 0;
+}
+ 
+enter the number 11
+November
+===================================================================================
+ QES 4: check alphabet vowel | consoant
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character ");
+    scanf("%c",&a);
+    if(a=='a')
+    {
+        printf("vowel");
+    }
+    else if(a=='e'){
+         printf("vowel");
+    }
+    else if(a=='i'){
+         printf("vowel");
+    }
+    else if(a=='o'){
+         printf("vowel");
+    }
+    else if(a=='u'){
+         printf("vowel");
+    }
+   
+    else{
+        printf("consoant");
+    }
+    return 0;
+}
+
+enter the character u
+vowel
+====================================================================================
+5)
+a :apple 
+b :ball 
+c:cat 
+d :dog 
+
+not match 
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter the character ");
+    scanf("%c",&alpha);
+    if(alpha=='a')
+    {
+        printf("apple");
+    }
+    else if(alpha=='b'){
+         printf("ball");
+    }
+    else if(alpha=='c'){
+         printf("cat");
+    }
+    else if(alpha=='d'){
+         printf("dog");
+    }
+   
+   
+    else{
+        printf("not match");
+    }
+    return 0;
+}
+enter the character d
+dog
+=========================================================================================
+ 6) two number :if else
+#include<stdio.h>
+int main(){
+    int a, b;
+    printf("enter the number1 ");
+    scanf("%d",&a);
+    printf("enter the number2 ");
+    scanf("%d",&b);
+if(a>b)
+{
+    printf("a is greater then b");
+}
+else
+{
+    printf("b is greater then a");
+}
+   
+    
+    return 0;
+}
+enter the number1 5
+enter the number2 7
+b is greater then a
+=========================================================================================
+7) five number maximum 
+int main(){
+    int a, b,c,d,e;
+    printf("enter the number1 ");
+    scanf("%d",&a);
+    printf("enter the number2 ");
+    scanf("%d",&b);
+    printf("enter the number3 ");
+    scanf("%d",&c);
+    printf("enter the number4 ");
+    scanf("%d",&d);
+    printf("enter the number5 ");
+    scanf("%d",&e);
+if(a>b && a>c && a>d && a>e)
+{
+    printf("a is max. number");
+}
+else if(b>a && b>c && b>d && d>e)
+{
+    printf("b is max.number");
+}
+else if(c>a && c>b && c>d && c>e)
+{
+    printf("c is max.number");
+}
+else if(d>a && d>b && d>c && d>e)
+{
+    printf("d is max.number");
+}
+else if (e>a && e>b && e>c && e>d)
+{
+    printf("e is max.number");
+}
+else
+{
+    printf("number is equal");
+}
+   
+    
+    return 0;
+}
+enter the number1 10
+enter the number2 50
+enter the number3 20
+enter the number4 60
+enter the number5 15
+d is max.number
+=====================================================================================
+8) 10 number maximum 
+#include<stdio.h>
+int main(){
+    int n1,n2,n3,n4,n5,n6,n7,n8,n9,n10;
+    printf("enter the number1 ");
+    scanf("%d",&n1);
+    printf("enter the number2 ");
+    scanf("%d",&n2);
+    printf("enter the number3 ");
+    scanf("%d",&n3);
+    printf("enter the number4 ");
+    scanf("%d",&n4);
+    printf("enter the number5 ");
+    scanf("%d",&n5);
+    printf("enter the number6 ");
+    scanf("%d",&n6);
+    printf("enter the number7 ");
+    scanf("%d",&n7);
+    printf("enter the number8 ");
+    scanf("%d",&n8);
+    printf("enter the number9 ");
+    scanf("%d",&n9);
+    printf("enter the number10 ");
+    scanf("%d",&n10);
+    
+if(n1>n2 && n1>n3 && n1>n4 && n1>n5 && n1>n6 && n1>n7 && n1>n8 && n1>n9 && n1>n10 )
+{
+    printf("n1 is max. number");
+}
+else if(n2>n1 && n2>n3 && n2>n4 && n2>n5 && n2>n6 && n2>n7 && n2>n8 && n2>n9 && n2>n10)
+{
+    printf("n2 is max.number");
+}
+else if(n3>n1 && n3>n2 && n3>n4 && n3>n5 && n3>n6 && n3>n7 && n3>n8 && n3>n9 && n3>n10)
+{
+    printf("n3 is max.number");
+}
+else if(n4>n1 && n4>n2 && n4>n3 && n4>n5 && n4>n6 && n4>n7 && n4>n8 && n4>n9 && n4>n10)
+{
+    printf("n4 is max.number");
+}
+else if (n5>n1 && n5>n2 && n5>n4 && n5>n3 && n5>n6 && n5>n7 && n5>n8 && n5>n9 && n5>n10)
+{
+    printf("n5 is max.number");
+}
+else if(n6>n1 && n6>n2 && n6>n3 && n6>n4 && n6>n5   && n6>n7 && n6>n8 && n6>n9 && n6>n10)
+{
+    printf("n6 is max.number");
+}
+else if(n7>n1 && n7>n2 && n7>n3 && n7>n4 && n7>n5 && n7>n6 && n7>n8 && n7>n9 && n7>n10)
+{
+    printf("n7 is max.number");
+}
+else if(n8>n1 && n8>n2 && n8>n3 && n8>n4 && n8>n5 && n8>n6 && n8>n7 && n8>n9 && n8>n10)
+{
+    printf("n8 is max.number");
+}
+else if(n9>n1 && n9>n2 && n9>n3 && n9>n4 && n9>n5 && n9>n6 && n9>n7 && n9>n8 && n9>n10)
+{
+    printf("n9 is max.number");
+}
+else if(n10>n1 && n10>n2 && n10>n3 && n10>n4 && n10>n5 && n10>n6 && n10>n7 && n10>n8 && n10>n9 )
+{
+    printf("n10 is max.number");
+}
+else
+{
+    printf("number is equal");
+}
+   
+    
+    return 0;
+}
+
+enter the number1 5
+enter the number2 10
+enter the number3 4
+enter the number4 6
+enter the number5 22
+enter the number6 10
+enter the number7 5
+enter the number8 9
+enter the number9 6
+enter the number10 2
+n5 is max.number
+=======================================================================================
+ 9) m | M :male 
+f | F :female 
+other 
+#include<stdio.h>
+int main(){
+       char alpha;
+   printf("enter the character ");
+   scanf("%c",&alpha);
+   if (alpha=='m'|| alpha=='M')
+   {
+      printf("male");
+   }
+else if(alpha=='f'|| alpha=='F')
+{
+    printf("female");
+}
+else
+{
+   printf("other");
+}
+    return 0;
+}
+enter the character F
+female
+======================================================================================
+10)
+a :addition 
+m :multiplication
+d :division 
+s :swap 
+w :swap with variable 
+o :modular 
+u :substraction 
+
+#include<stdio.h>
+int main(){
+   char alpha;
+   printf("enter the character");
+   scanf("%c",&alpha);
+   if(alpha=='a'){
+      int a,b;
+      printf("enter number1 ");
+      scanf("%d",&a);
+      printf("enter number2 ");
+      scanf("%d",&b);
+      int sum=a+b;
+      printf("%d",sum);
+   }
+   else if(alpha=='m')
+   {
+       int a,b;
+      printf("enter number1 ");
+      scanf("%d",&a);
+      printf("enter number2 ");
+      scanf("%d",&b);
+      float c=a*b;
+      printf("%f",&c);
+   }
+   else if(alpha=='s')
+   {
+       int a,b;
+      printf("enter number1 ");
+      scanf("%d",&a);
+      printf("enter number2 ");
+      scanf("%d",&b);
+      a=a+b;
+      b=a-b;
+      a=a-b;
+      printf("%d",&a);
+      printf("%d",&b);
+   }
+    else if(alpha=='w')
+   {
+       int a,b,c;
+      printf("enter number1 ");
+      scanf("%d",&a);
+      printf("enter number2 ");
+      scanf("%d",&b);
+      c=a;
+      a=b;
+      b=c;
+      printf("%d",&a);
+      printf("%d",&b);
+   }
+   else if(alpha=='o')
+   {
+       int a,b,c;
+      printf("enter number1 ");
+      scanf("%d",&a);
+      printf("enter number2 ");
+      scanf("%d",&b);
+      c=a%b;
+      
+      printf("%f",&c);
+      
+   }
+   else if(alpha=='u')
+   {
+       int a,b,c;
+      printf("enter number1 ");
+      scanf("%d",&a);
+      printf("enter number2 ");
+      scanf("%d",&b);
+      c =a-b;
+      printf("%d",&c);
+   }
+   else{
+       printf("not match");
+   }
+    return 0;
+}
+=====================================================================================\
+ 11) 5 and 15 
+check number both are divisble
+ 
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter number ");
+    scanf("%d",&number);
+    if(number%5==0 && number%15==0)
+    {
+        printf("both are div");
+    }
+    else{
+        printf("not");
+    }
+    return 0;
+}
+enter number 30
+both are div
+======================================================================================
+12)5 and 15 
+check number any one are divisble 
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter number ");
+    scanf("%d",&number);
+    if(number%5==0 || number%15==0)
+    {
+        printf("one are div");
+    }
+    else{
+        printf("not");
+    }
+    return 0;
+}
+========================================================================================
+13)
+1--->5 this is between one to five 
+
+10--->25 this is between 10 to 25
+
+26--->100 this is between 26 to 100
+
+not match 
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter number ");
+    scanf("%d",&number);
+    if(number>=1 && number<=5)
+    {
+        printf("this is between 1 to 5");
+    }
+    else if(number>=10 && number<=25)
+    {
+        printf("this is between 10 to 25");
+    }
+     else if(number>=26 && number<=100)
+    {
+        printf("this is between 26 to 100");
+    }
+    else
+    {
+       printf("not match");
+    }
+    return 0;
+}
+========================================================================================
+14)
+marks :input 5 number 
+per caclulate :
+grades :
+per enter : grade
+
+90 above :A 
+60-90 :B 
+
+50-60 :C
+
+fail
+#include <stdio.h>
+int main()
+{
+    int a,b,c,d,e;
+    printf("enter the number1 ");
+    scanf("%d",&a);
+    
+    printf("enter the number2 ");
+    scanf("%d",&b);
+    
+    printf("enter the number3 ");
+    scanf("%d",&c);
+    
+    printf("enter the number4 ");
+    scanf("%d",&d);
+    
+if
+    printf("enter the number5 ");
+    scanf("%d",&e);
+    int sum;
+    sum= a+b+c+d+e;
+    float per;
+    per=(sum/5);
+        
+    if(per>90){
+        printf("A");
+    }
+    else if(per>60 &&per<=90){
+        printf("B");
+    }
+    else if(per>50 &&per<=60)
+    {
+        printf("C");
+    }
+    else{
+        printf("fail");
+    }
+
+    
+    return 0;
+    
+}
+enter the number1 50
+enter the number2 66
+enter the number3 88
+enter the number4 99
+enter the number5 67
+B
+==========================================================================================
+15 :
+5 marks enter : 
+40 se badey 
+	average
+
+fail 
+
+#include <stdio.h>
+int main()
+{
+    int a,b,c,d,e;
+    printf("enter the number1 ");
+    scanf("%d",&a);
+    
+    printf("enter the number2 ");
+    scanf("%d",&b);
+    
+    printf("enter the number3 ");
+    scanf("%d",&c);
+    
+    printf("enter the number4 ");
+    scanf("%d",&d);
+    
+    printf("enter the number5 ");
+    scanf("%d",&e);
+    if(a>40 && b>40 && c>40  && d>40 && e>40)
+    {
+        float avr;
+        avr=a+b+c+d+e/5;
+        printf("%f",avr);
+    }
+    else {
+        printf("fail");
+    }
+
+
+    return 0;
+}
+
+
+
+
+
+
+

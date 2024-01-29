@@ -1,0 +1,96 @@
+QES 1:
+#include <stdio.h>
+
+int main()
+{
+     printf("welcome to india ");
+    printf("welcome to america ");
+    printf("welcome to delhi ");
+    printf("welcome to pakistan ");
+    return 0;
+}
+
+ANS: welcome to india welcome to america welcome to delhi welcome to pakistan 
+
+QES 2:
+#include <stdio.h>
+
+int main()
+{
+     printf("welcome to india\n");
+    printf("welcome to america \n");
+    printf("welcome to delhi \n");
+    printf("welcome to pakistan \n");
+    return 0;
+}
+
+ans:
+welcome to india
+welcome to america 
+welcome to delhi 
+welcome to pakistan 
+
+QES 3:five fruits name 
+
+#include <stdio.h>
+
+int main()
+{
+     printf("Apple\n");
+    printf("Blueberry \n");
+    printf("Blackberry \n");
+    printf("Banana \n");
+    printf("Grape \n");
+    
+    return 0;
+}
+
+ANS:
+ Apple
+Blueberry 
+Blackberry 
+Banana 
+Grape 
+
+QES 4:five country name 
+
+#include <stdio.h>
+
+int main()
+{
+     printf("India\n");
+    printf("Italy\n");
+    printf("Japan \n");
+    printf("China\n");
+    printf("Egypt \n");
+   
+    return 0;
+}
+
+ans
+India
+Italy
+Japan
+China
+Egypt 
+
+QES 5:city name
+#include <stdio.h>
+
+int main()
+{
+     printf("Mumbai\n");
+    printf("Delhi \n");
+    printf("Bengaluru \n");
+    printf("Kolkata \n");
+    printf("Chennai \n");
+    
+    return 0;
+}
+
+ans:
+Mumbai
+Delhi 
+Bengaluru 
+Kolkata 
+Chennai 

@@ -1,0 +1,547 @@
+functions :
+show1() :hello 
+show2() :how are you 
+show3() :welcome to jaipur 
+show4() :my name is _
+ans:
+#include <stdio.h>
+
+void show1();
+void show2();
+void show3();
+void show4();
+
+int main()
+{
+   
+   
+    show1();
+    show2();
+    show3();
+    show4();
+    return 0;
+}
+
+void show1(){
+   
+    printf("hello ");
+   
+printf("\n");
+}
+void show2(){
+    int a;
+    int b;
+    printf("how are you");
+    
+printf("\n");
+}
+void show3(){
+    
+    printf("welcome to jaipur");
+    
+printf("\n");
+}
+
+void show4(){
+    
+    printf("my name is praveen");
+    
+printf("\n");
+}
+========================================================================================
+2)
+user input 
+add() :four variable addition 
+sub() :two variable addition 
+multi() :four variable addition 
+div() :two variable addition 
+#include <stdio.h>
+
+void add();
+void sub();
+void multi();
+void div();
+
+int main()
+{
+   
+   
+    add();
+    sub();
+    multi();
+    div();
+    return 0;
+}
+
+void add(){
+    int a;
+    int b;
+    printf("enter the value of a and b ");
+    scanf("%d %d",&a,&b);
+    int c=a+b;
+    printf("%d",c);
+printf("\n");
+}
+void sub(){
+    int a;
+    int b;
+    printf("enter the value of a and b ");
+    scanf("%d %d",&a,&b);
+    int c=a-b;
+    printf("%d",c);
+printf("\n");
+}
+void multi(){
+    int a;
+    int b;
+    printf("enter the value of a and b ");
+    scanf("%d %d",&a,&b);
+    int c=a*b;
+    printf("%d",c);
+printf("\n");
+}
+void div(){
+    int a;
+    int b;
+    printf("enter the value of a and b ");
+    scanf("%d %d",&a,&b);
+    int c=a/b;
+    printf("%d",c);
+
+}
+enter the value of a and b 55
+5
+60
+enter the value of a and b 5
+5
+0
+enter the value of a and b 5
+5
+25
+enter the value of a and b 10
+5
+2
+=======================================================================================
+3)
+user input
+swap() :number swap 
+voter() :to check a user is valid or not 
+vowel() :to check a vowel and consonant 
+gender() :to check a gender male |female 
+maximum() :three number maximum 
+area() :area and volume 
+#include <stdio.h>
+
+void swap();
+void voter();
+void vowel();
+void gender();
+void maximum();
+void area();
+
+int main()
+{
+   
+   
+    swap();
+    voter();
+    vowel();
+    gender();
+    maximum();
+    area();
+    return 0;
+}
+
+void swap(){
+    int a;
+    int b;
+    int c;
+    printf("enter the value of a and b ");
+    scanf("%d %d",&a,&b);
+         c=a;
+         a=b;
+         b=c;
+    printf("%d",a);
+    printf("%d ",b);
+printf("\n");
+}
+void voter(){
+    int age;
+    printf("enter the age");
+    scanf("%d",&age);
+    if(age>18)
+    {
+        printf("valid for voter id");
+    }
+    else
+    {
+        printf("not valid for voter id");
+    }
+    printf("\n");
+}
+void vowel(){
+    
+    char a;
+    printf("enter the character ");
+    scanf("%c",&a);
+    if(a=='a')
+    {
+        printf("vowel");
+    }
+    else if(a=='e'){
+         printf("vowel");
+    }
+    else if(a=='i'){
+         printf("vowel");
+    }
+    else if(a=='o'){
+         printf("vowel");
+    }
+    else if(a=='u'){
+         printf("vowel");
+    }
+   
+    else{
+        printf("consoant");
+    }
+    
+    printf("\n");
+}
+void gender(){
+          char alpha;
+   printf("enter the character ");
+   scanf("%c",&alpha);
+   if (alpha=='m')
+   {
+      printf("male");
+   }
+else if(alpha=='f')
+{
+    printf("female");
+}
+else
+{
+   printf("other");
+}
+printf("\n");
+}
+void maximum(){
+     int a, b,c;
+    printf("enter the number1 ");
+    scanf("%d",&a);
+    printf("enter the number2 ");
+    scanf("%d",&b);
+    printf("enter the number3 ");
+    scanf("%d",&c);
+    
+if(a>b && a>c )
+{
+    printf("a is max. number");
+}
+else if(b>a && b>c)
+{
+    printf("b is max.number");
+}
+else if(c>a && c>b)
+{
+    printf("c is max.number");
+}
+else
+{
+    printf("number is equal");
+}
+    printf("\n");
+}
+void area(){
+      
+    char alpha1;
+    printf("enter the character ");
+    scanf(" %c",&alpha1);
+    if(alpha1=='t')
+    // tringle
+    {
+        float base, height, area;
+         printf("Enter the base of the triangle: ");
+          scanf("%f", &base);
+
+         printf("Enter the height of the triangle: ");
+         scanf("%f", &height);
+         area=0.5*base*height;
+         printf("%f",area);
+    }
+    else if(alpha1=='s')
+    // square
+    {
+        float side, area;
+          printf("Enter the side length of the square: ");
+          scanf("%f", &side);
+          area = side * side;
+          printf("%f",area);
+    }
+    else if(alpha1=='r')
+    // rectangle
+    {
+         float length, width, area;
+    printf("Enter the length of the rectangle: ");
+    scanf("%f", &length);
+
+    printf("Enter the width of the rectangle: ");
+    scanf("%f", &width);
+    area = length * width;
+    printf("%f",area);
+        
+    }
+}
+=====================================================================================================
+reverse() :reverse number 
+pallindrome() :
+armstrong() :
+count() :
+factorial():
+fibonaaci():
+sumofdigit() :
+#include <stdio.h>
+
+ void reverse() ; 
+ void pallindrome() ;
+ void armstrong() ;
+ void count() ;
+ void factorial();
+ void fibonaaci();
+ void sumofdigit() ;
+
+int main()
+{
+   
+   
+    reverse() ; 
+  pallindrome() ;
+  armstrong() ;
+  count() ;
+  factorial();
+  fibonaaci();
+ sumofdigit() ;
+    return 0;
+}
+
+void reverse(){
+    int num=6312;
+    int sum=0;
+    int rem;
+    
+    while(num>0){
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    printf("%d ",sum);
+    printf("\n");
+}
+  
+
+void pallindrome(){
+     int num=152;
+  int sum=0;
+  int rem;
+  int temp=num;
+  while(num>0){
+      rem=num%10;
+      sum=sum+rem*rem*rem;
+      num=num/10;
+  }
+      if(temp==sum)
+  {
+      printf("armstrong");
+  }else
+ {
+  printf("not");
+}
+   printf("\n");
+}
+
+void armstrong(){
+      int num=152;
+  int sum=0;
+  int rem;
+  int temp=num;
+  while(num>0){
+      rem=num%10;
+      sum=sum+rem*rem*rem;
+      num=num/10;
+  }
+  
+   if(temp==sum)
+   {
+      printf("armstrong");
+  }else
+   {
+  printf("not");
+   }
+    printf("\n");
+  }
+void count(){
+      int num=67437;
+     int count=0;
+     while(num>0){
+        num=num/10;
+        count++;
+         }
+    printf("%d",count);
+
+     printf("\n");
+  }
+void factorial(){
+      int n=5;
+   int fact=1;
+   for(int i=1;i<=n;i++){
+       fact=fact*i;
+   }
+   printf("%d",fact);
+
+
+printf("\n");
+}
+
+void fibonaaci(){
+          int n=5;
+    int n1=0,n2=1,n3;
+    printf("%d %d ",n1,n2);
+    for(int i=1;i<=5;i++)
+    {
+        n3=n1+n2;
+        printf("%d ",n3);
+        n1=n2;
+        n2=n3;
+    }
+printf("\n");
+}
+
+void sumofdigit(){
+      int num=5478;
+   int rem;
+   int sum=0;
+   while(num>0)
+   {
+       rem=num%10;
+       sum=sum+rem;
+       num=num/10;
+       
+   }
+       printf("%d ",sum);
+}
+ans
+2136 
+not
+not
+5
+120
+0 1 1 2 3 5 8 
+24 
+=====================================================================================================   
+#include <stdio.h>
+
+ void pattern1() ; 
+ void pattern2() ;
+ void pattern3() ;
+ void pattern4() ;
+ void pattern5(); 
+ 
+
+int main()
+{
+      pattern1() ; 
+      pattern2() ;
+      pattern3() ;
+      pattern4() ;
+      pattern5();
+    return 0;
+}
+
+void pattern1(){
+    for(int i=1;i<=5 ;i++){
+        for(int j=1; j<=5; j++){
+            if(i==1 ||j==1 || j==5 || i==5)
+            {
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }  
+    }
+        printf("\n");
+       
+        
+         }
+    
+  
+}
+
+void pattern2(){
+      for(int i=1;i<=5 ;i++){
+        for(int j=1; j<=5; j++){
+            if(i==1 || i==3 ||j==5 ||j==1)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+              printf("\n");
+      }
+}
+
+void pattern3(){
+    for(int i=1;i<=5 ;i++){
+        for(int j=1; j<=5; j++){
+            if(i==1 || j==5 || i==5 ||j==1 || i==3)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        } 
+         printf("\n");
+        
+    }
+   
+  }
+void pattern4(){
+     for(int i=1;i<=5 ;i++){
+        for(int j=1; j<=5; j++){
+            if(i==1 ||j==1|| i==3|| i==5)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+          printf("\n");
+     }
+
+   
+  }
+void pattern5(){
+    
+     for(int i=1;i<=5 ;i++){
+         
+        for(int j=1; j<=5; j++){
+            if(j==1 ||j==5|| i==3)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+     }
+      printf("\n");
+        }
+}
+
+
